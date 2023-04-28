@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="picture2.css">
+    <title>Task1.2</title>
+</head>
+<body>
+    <h1 class="firstText">Personal Information</h1>
+    <h2 class="firstText">Basic information form</h2>
+    <form class="form">
+        <fieldset>
+            <legend>Personal details</legend>
+            <div>
+                <label class="label" for="firstName">First Name</label>
+                <input class="format" 
+                type="text"
+                id="firstName"
+                placeholder="Type your name"
+                name="firstName">
+            </div><br>
+            <div>
+                <label class="label" for="lastName">Last Name</label>
+                <input class="format" 
+                type="text"
+                id="lastName"
+                placeholder="Type your surname"
+                name="lastName">
+            </div><br>
+            <div>
+                <label for="gender">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender">
+            </div><br>
+            <div>
+                <label class="label" for="email">Email:</label>
+                <input class="format" 
+                type="email"
+                id="email"
+                placeholder="Type your email"
+                name="email">
+            </div><br>
+            
+            <div>
+                <label class="label" for="address">Address</label><br>
+                <textarea class="format" 
+                name="address" 
+                id="address" 
+                cols="30" 
+                rows="5"
+                placeholder="type address"></textarea>
+            </div><br>
+            <div>
+                <label for="Submit">Submit</label>
+                <input class="submit" type="submit" 
+                id="Submit"
+                name="Submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

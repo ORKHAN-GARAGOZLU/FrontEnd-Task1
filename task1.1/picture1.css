@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 8px solid rgb(34, 99, 99);
+
+}
+.text{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(34, 99, 99);
+}
+.form {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.format{
+    border-radius: 4px;
+    border: 1px solid  rgb(34, 99, 99);
+    width: 100%;
+    padding: 5px;
+}
+.submit{
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+

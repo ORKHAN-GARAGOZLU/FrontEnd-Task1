@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="picture1.css">
+    <title>Task1.1</title>
+</head>
+<body>
+    <form class="form">
+        <h1 class="text">Loan Application</h1><br>
+        <h2 class="text">Applicant Information</h2><br>
+        <div>
+            <label class="label" for="firstName">First Name</label>
+            <input class="format" 
+            type="text"
+            id="firstName"
+            placeholder="Type your name"
+            name="firstName">
+        </div><br>
+        <div>
+            <label class="label" for="lastName">Last Name</label>
+            <input class="format" 
+            type="text"
+            id="lastName"
+            placeholder="Type your surname"
+            name="lastName">
+        </div><br>
+        <div>
+            <label class="label" for="email">Email</label>
+            <input class="format" 
+            type="email"
+            id="email"
+            placeholder="Type your email"
+            name="email">
+        </div><br>
+        <div>
+            <label class="label" for="socialSecurity">Social Security</label>
+            <input class="format" 
+            type="number"
+            id="socialSecurity"
+            placeholder="Type your SSN"
+            name="socialSecurity">
+        </div><br>
+        <div>
+            <label class="label" for="daytimePhone">Daytime Phone</label>
+            <input class="format" 
+            type="tel"
+            id="daytimePhone"
+            value="+994"
+            pattern="[0-9]{2}+[0-9]{3}+[0-9]{2}+[0-9]{2}"
+            name="daytimePhone">
+        </div><br>
+        <div>
+            <label class="label" for="eveningPhone">Evening Phone</label>
+            <input class="format" 
+            type="tel"
+            id="eveningPhone"
+            value="012"
+            pattern="[0-9]{2}+[0-9]{3}+[0-9]{2}+[0-9]{2}"
+            name="eveningPhone">
+        </div><br>
+        <h2 class="text">Loan Information</h2><br>
+        <div>
+            <label class="label" for="loanType">Loan Type</label>
+            <select class="format" name="loanType" id="loanType" name="loanType">
+            <option value="">Select loan type</option>
+            <option value="personalLoan">Personal Loans</option>
+            <option value="personalLoan"> Auto Loans</option>
+            <option value="personalLoan">Student Loans</option>
+            <option value="personalLoan">Mortgage Loans</option>
+            <option value="personalLoan">Home Equity Loans</option>
+            <option value="personalLoan">Credit-Builder Loans</option>
+            <option value="personalLoan">Debt Consolidation Loans</option>
+            <option value="personalLoan">Payday Loans</option>
+            </select>
+        </div><br>
+        <div>
+            <label class="label" for="amount">Loan Amount</label>
+            <input class="format" 
+            type="number"
+            id="amount"
+            min="0"
+            placeholder="Include amount"
+            name="amount">
+        </div><br>
+        <div>
+            <label class="label" for="description">Description</label>
+            <textarea class="format" 
+            name="description" 
+            id="description" 
+            cols="30" 
+            rows="5"
+            placeholder="type description"></textarea>
+        </div><br>
+        <div>
+            <label for="Submit">Submit Application</label>
+            <input class="submit" 
+            type="submit" 
+            value="Submit For Loan"
+            id="Submit"
+            name="Submit">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(9, 38, 38);
+}
+table{
+    margin: auto;
+    border: none;
+    border-collapse: collapse;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+th{
+    background-color: rgba(35, 95, 95, 0.822);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+td{
+    padding: 40px;
+    background-color: rgba(198, 219, 219, 0.822);
+}
+.edit{
+    text-decoration: underline;
+    color: blue;
+}
+.box img{
+    width: 70px;
+    background-color: rgb(80, 69, 55);
+    margin: auto;
+}
+
